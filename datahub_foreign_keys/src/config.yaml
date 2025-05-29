@@ -1,0 +1,12 @@
+mssql:
+  server: "your_server"
+  username: "your_username"
+  password: "your_password"
+  database: "your_database"
+  driver: "{ODBC Driver 18 for SQL Server}"
+  sql_script_path: "datahub_foreign_keys/src/fks_cubedevtest_ucube.sql"
+
+datahub:
+  host: "your_host"
+  port: 8080
+  token: "your_token"
